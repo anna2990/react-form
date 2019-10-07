@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Image, Col, Row, Container, Form} from 'react-bootstrap';
-import img from '/Users/Anna/react/react-form/my-app/src/img.png';
+import img from '/Users/user/react/react-form/my-app/src/img.png';
 import Registration from './Registration';
-import FormReg from './FormReg';
+import FormContainer from './FormContainer';
 import Gender from './Gender';
 import Foot from './Foot';
 
@@ -18,7 +18,7 @@ class App extends Component {
               <Col className="col-7 form-item">
                 <Registration />
                 <Form>
-                  <FormReg />
+                  <FormContainer />
                   <Gender />
                   <Foot />
                 </Form>
