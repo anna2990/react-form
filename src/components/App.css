@@ -3,6 +3,7 @@ h1, label, .btn-lang, .btn-sign {
 }
 
 .container {
+    margin-top: 6%;
     display: flex;
     align-items: center;
 }
@@ -20,8 +21,7 @@ h1, label, .btn-lang, .btn-sign {
 
 .image-block {
     width: 100%;
-    height: 650px;
-    background: url("/src/img.png") center center / cover ;
+    background: url("/src/img.png") cover ;
 }
 
 .title {
