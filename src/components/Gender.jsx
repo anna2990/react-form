@@ -9,10 +9,10 @@ class Gender extends Component {
                 <label>Gender</label>
                 {['radio'].map(type => (
                     <div key={`inline-${type}`} className="gender">
-                      <Form.Check inline label="Male" type={type} id={`inline-${type}-1`} />
-                      <Form.Check inline label="Female" type={type} id={`inline-${type}-2`} />
-                      <Form.Check inline label="Other" type={type} id={`inline-${type}-3`}/>
-                      <Form.Check inline label="Prefer not to say" type={type} id={`inline-${type}-3`}/>
+                      <Form.Check inline label="Male" type={type} id={`inline-${type}-1`} name="gender" />
+                      <Form.Check inline label="Female" type={type} id={`inline-${type}-2`} name="gender" />
+                      <Form.Check inline label="Other" type={type} id={`inline-${type}-3`} name="gender"/>
+                      <Form.Check inline label="Prefer not to say" type={type} id={`inline-${type}-3`} name="gender"/>
                     </div>
                 ))}
             </div>
