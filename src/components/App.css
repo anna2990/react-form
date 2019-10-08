@@ -14,20 +14,21 @@ h1, label, .btn-lang, .btn-sign {
     box-shadow: 0 0 5px;
 }
 
-.form-item {
-    justify-content: space-between;
-   
-}
-
 .image-block {
     height: 650px;
-    width: 100%;
     background: url("/src/img.png") cover ;
 }
 
 .title {
-    margin: 30px;
+    display: flex;
+    margin: 30px 30px 30px 30px;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form {
+    margin-left: 30px;
+    margin-right: 30px;
     flex-wrap: wrap;
 }
 
@@ -35,11 +36,11 @@ h1, label, .btn-lang, .btn-sign {
     border-radius: 50%;
     display: flex;
     align-items: center;
-
 }
 
 .popover-link, .popover-link:hover {
     color: #ced4da;
+    margin: 5px;
 }
 
 .form-control {
