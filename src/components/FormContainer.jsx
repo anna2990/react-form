@@ -3,8 +3,6 @@ import Form from 'react-bootstrap/Form';
 import {Row, InputGroup, Dropdown, DropdownButton} from 'react-bootstrap';
 
 
-
-
 class Input extends Component  {
     render() {
         const { label, name, placeholder, type } = this.props
@@ -39,7 +37,9 @@ class Input extends Component  {
                         <Form.Label>Phone number</Form.Label>
                         <InputGroup>
                             <DropdownButton as={InputGroup.Prepend} variant="outline-secondary" id="input-group-dropdown">
-                              <Dropdown.Item href="#">tel</Dropdown.Item>
+                              <Dropdown.Item href="#">+375(29)</Dropdown.Item>
+                              <Dropdown.Item href="#">+375(33)</Dropdown.Item>
+                              <Dropdown.Item href="#">+375(25)</Dropdown.Item>
                             </DropdownButton>
                             <Form.Control placeholder="Phone number"/>
                         </InputGroup>
