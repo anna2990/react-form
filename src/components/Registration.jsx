@@ -7,10 +7,10 @@ import { Row, Col } from 'react-bootstrap';
 class Registration extends Component {
   render () {
     return(
-        <Row className="title">
-          <Col className="">
+        <div className="title">
+          <div className="registr">
               <h1>Registration</h1>
-          </Col>
+          </div>
           <Col className="col-3 buttons">
             {['button'].map(type =>(
               <div>
@@ -19,7 +19,7 @@ class Registration extends Component {
               </div>
             ))}
           </Col>
-        </Row>
+        </div>
       );
   }
   
