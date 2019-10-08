@@ -17,7 +17,7 @@ class App extends Component {
           <Image className="col-5 image-block" src={img} alt=""></Image>
               <Col className="col-7 form-item">
                 <Registration />
-                <Form>
+                <Form className="form">
                   <FormContainer />
                   <Gender />
                   <Foot />
