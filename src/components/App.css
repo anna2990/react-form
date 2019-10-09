@@ -1,0 +1,121 @@
+h1, label, .btn-lang, .btn-sign {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 6%;
+    box-shadow: 0 0 5px;
+}
+
+.image-block {
+    height: 650px;
+    background: url("/src/img.png") cover ;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-lang {
+    margin: 3px;
+    border-radius: 50%;
+    color: #6c757d;
+    font-size: .7rem;
+    padding: .300rem;
+    border: 1px solid #ced4da;
+    outline: none !important;
+}
+
+.btn-lang:hover {
+    color: #6c757d;
+    background-color: #ced4da;
+}
+
+.btn-lang.active {
+    background-color: #185DD2;
+    color: #fff;
+    border: 1px solid #185DD2;
+}
+
+.btn-lang.active:hover {
+    background-color: #185DD2;
+    color: #fff;
+    border: 1px solid #185DD2;
+}
+
+.form-container {
+    margin-top: 30px;
+ }
+
+.popover-link, .popover-link:hover {
+    color: #ced4da;
+    margin: 5px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn-secondary {
+    color: #6c757d;
+    background-color: #ffffff;
+    border-color: #ced4da!important;
+}
+
+.btn-sign {
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 10px 0 10px 0;
+    background-color: #185DD2;
+    margin-top: 15px;
+}
+
+.fa-arrow-right {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.gender {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.gender-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+
+
